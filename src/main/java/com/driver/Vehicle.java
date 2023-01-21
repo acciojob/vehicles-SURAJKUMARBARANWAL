@@ -31,10 +31,10 @@ public class Vehicle {
         this.currentDirection = currentDirection;
     }
     //////////////////////////////////////////////
-    public Vehicle(String name , int currentSpeed ,int currentDirection) {
+    public Vehicle(String name ) {
 
        this.name=name;
-       this.currentSpeed=currentSpeed;
+       this.currentSpeed=0;
        this.currentDirection=0;
     }
 
