@@ -6,6 +6,7 @@ public class Vehicle {
     private int currentSpeed;
     private int currentDirection;
   //////////////////////////////////////////////////
+
     public String getName() {
         return name;
     }
@@ -25,12 +26,12 @@ public class Vehicle {
     public int getCurrentDirection() {
         return currentDirection;
     }
-    ////////////////////////////////////////
+
     public void setCurrentDirection(int currentDirection) {
         this.currentDirection = currentDirection;
     }
-
-    public Vehicle(String name , int currentSpeed ) {
+    //////////////////////////////////////////////
+    public Vehicle(String name , int currentSpeed ,int currentDirection) {
 
        this.name=name;
        this.currentSpeed=currentSpeed;
@@ -38,6 +39,7 @@ public class Vehicle {
     }
 
     public Vehicle() {
+
     }
 
     public void steer(int direction){
